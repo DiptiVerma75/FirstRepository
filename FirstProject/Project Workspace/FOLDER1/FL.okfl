@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
 <ComponentSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ImportedArtifacts />
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>E497F9FEF23644E00F41D2C2F9BBB396</Name>
+      <Value>Project Workspace/FOLDER1/New Node 2019_12_19 10_13_46_400.okor</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
   <MetaInformation>
     <DescriptionRTF />
     <ExpectedResult />
@@ -26,6 +31,116 @@
           <Name>URL</Name>
           <DataSource>StaticValue</DataSource>
           <StaticValue xsi:type="xsd:string">https://device.pcloudy.com/</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeTextOnEditBox</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>E497F9FEF23644E00F41D2C2F9BBB396/Remote Mobile Web &amp; Application Testing on Real Android Devices - pCloudy/userId</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">dipti.verma@sstsinc.com</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeSecureText</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>E497F9FEF23644E00F41D2C2F9BBB396/Remote Mobile Web &amp; Application Testing on Real Android Devices - pCloudy/password</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">[X,1,wXyUKH7kW+Xm]n08/ibkYVTN3YKT01cmJHw==</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/ClickButton</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>E497F9FEF23644E00F41D2C2F9BBB396/Remote Mobile Web &amp; Application Testing on Real Android Devices - pCloudy/LOGIN</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeSecureText</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>E497F9FEF23644E00F41D2C2F9BBB396/Remote Mobile Web &amp; Application Testing on Real Android Devices - pCloudy/password</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">[X,1,0Of3hgubNI1p]4Uhsf6BrFwBylPj60igrwQ==</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/ClickButton</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>E497F9FEF23644E00F41D2C2F9BBB396/Remote Mobile Web &amp; Application Testing on Real Android Devices - pCloudy/LOGIN</Obj_RelativePath>
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
