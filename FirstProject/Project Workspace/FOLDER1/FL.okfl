@@ -30,7 +30,7 @@
         <TestStepInputArgument>
           <Name>URL</Name>
           <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">https://device.pcloudy.com/</StaticValue>
+          <StaticValue xsi:type="xsd:string">Myntra</StaticValue>
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
