@@ -80,9 +80,11 @@
   <InputParameters>
     <ComponentInputParameter>
       <Name>input-parameter-1</Name>
-      <DefaultValues />
+      <DefaultValues>
+        <anyType xsi:type="xsd:boolean">false</anyType>
+      </DefaultValues>
       <IsMandatory>true</IsMandatory>
-      <Type>String</Type>
+      <Type>Boolean</Type>
     </ComponentInputParameter>
   </InputParameters>
   <OutputParameters />
