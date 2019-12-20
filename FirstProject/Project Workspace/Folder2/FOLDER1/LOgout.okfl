@@ -51,6 +51,38 @@
         <TestStepInputArgument>
           <Name>isContains</Name>
           <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:boolean">false</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/Mobile_TypeByText</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Text</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Index</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>isContains</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:boolean">false</StaticValue>
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
