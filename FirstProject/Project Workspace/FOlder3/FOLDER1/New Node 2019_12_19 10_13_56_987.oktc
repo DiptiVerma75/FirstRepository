@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<FlowSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>D98759E78A2F084AB594859ADC4021BA</Name>
+      <Value>Project Workspace/FOLDER1/FL.okfl</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <FlowSteps>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Component_RelativePath>D98759E78A2F084AB594859ADC4021BA</Component_RelativePath>
+      <StepInputArgs />
+      <StepOutputArgs />
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Component_RelativePath>D98759E78A2F084AB594859ADC4021BA</Component_RelativePath>
+      <StepInputArgs />
+      <StepOutputArgs />
+    </FlowStep>
+  </FlowSteps>
+</FlowSchema>
