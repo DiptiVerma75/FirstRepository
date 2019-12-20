@@ -24,8 +24,8 @@
       <StepInputArgs>
         <TestStepInputArgument>
           <Name>Browser</Name>
-          <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">ie</StaticValue>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/browser</GV_RelativePath>
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>URL</Name>
