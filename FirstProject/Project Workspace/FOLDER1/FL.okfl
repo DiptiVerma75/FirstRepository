@@ -30,7 +30,7 @@
         <TestStepInputArgument>
           <Name>URL</Name>
           <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">sdqkfwekf2epofjkpecm</StaticValue>
+          <StaticValue xsi:type="xsd:string">sc,cwdc</StaticValue>
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
