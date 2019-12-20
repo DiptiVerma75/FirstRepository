@@ -25,7 +25,7 @@
         <TestStepInputArgument>
           <Name>Browser</Name>
           <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">chrome</StaticValue>
+          <StaticValue xsi:type="xsd:string">ie</StaticValue>
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>URL</Name>
