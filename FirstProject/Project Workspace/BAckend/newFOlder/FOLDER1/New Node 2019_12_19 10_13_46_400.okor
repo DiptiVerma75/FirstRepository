@@ -82,6 +82,15 @@
           <PluginSpecificity />
           <PropertyName>url</PropertyName>
         </ObjectProperty>
+        <ObjectProperty>
+          <DataType />
+          <IsUsed>true</IsUsed>
+          <IsEncrypted>false</IsEncrypted>
+          <Value>my name is sheela , sheela ki jawani@#%^</Value>
+          <IsEditable>false</IsEditable>
+          <IsRegex>true</IsRegex>
+          <PropertyName>hello</PropertyName>
+        </ObjectProperty>
       </ObjectProperties>
       <ChildObjects>
         <ORObject>
