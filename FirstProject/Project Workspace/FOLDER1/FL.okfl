@@ -35,8 +35,8 @@
       </StepInputArgs>
       <StepOutputArgs>
         <TestStepOutputArgument>
-          <OutputVariableName>Browser</OutputVariableName>
-          <ParameterName>Output</ParameterName>
+          <OutputVariableName />
+          <ParameterName />
         </TestStepOutputArgument>
       </StepOutputArgs>
     </TestStep>
@@ -148,8 +148,8 @@
       </StepInputArgs>
       <StepOutputArgs>
         <TestStepOutputArgument>
-          <OutputVariableName>flop</OutputVariableName>
-          <ParameterName>Output</ParameterName>
+          <OutputVariableName />
+          <ParameterName />
         </TestStepOutputArgument>
       </StepOutputArgs>
     </TestStep>
@@ -183,8 +183,8 @@
       <StepInputArgs />
       <StepOutputArgs>
         <TestStepOutputArgument>
-          <OutputVariableName>Site URL</OutputVariableName>
-          <ParameterName>Output</ParameterName>
+          <OutputVariableName />
+          <ParameterName />
         </TestStepOutputArgument>
       </StepOutputArgs>
     </TestStep>
@@ -199,7 +199,7 @@
       <StepInputArgs>
         <TestStepInputArgument>
           <Name>Arg1</Name>
-          <DataSource>ValueFromOutputArgument</DataSource>
+          <DataSource>StaticValue</DataSource>
           <OutputArgument_RelativePath>OutputArguments/Site URL</OutputArgument_RelativePath>
         </TestStepInputArgument>
         <TestStepInputArgument>
@@ -219,7 +219,7 @@
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>Arg5</Name>
-          <DataSource>ValueFromOutputArgument</DataSource>
+          <DataSource>StaticValue</DataSource>
           <OutputArgument_RelativePath>OutputArguments/Browser</OutputArgument_RelativePath>
         </TestStepInputArgument>
         <TestStepInputArgument>
@@ -239,7 +239,7 @@
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>Arg9</Name>
-          <DataSource>ValueFromOutputArgument</DataSource>
+          <DataSource>StaticValue</DataSource>
           <OutputArgument_RelativePath>OutputArguments/flop</OutputArgument_RelativePath>
         </TestStepInputArgument>
         <TestStepInputArgument>
