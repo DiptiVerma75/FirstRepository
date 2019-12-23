@@ -52,6 +52,43 @@
       <StepInputArgs>
         <FlowStepInputArgument>
           <Name>input-parameter-1</Name>
+          <DataSource>ValueFromDataRepository</DataSource>
+          <DRColumnBindingMode>Cyclic</DRColumnBindingMode>
+          <DR_RelativePath>1462CB22467F9A736F27F1A8C9355507/Column-3</DR_RelativePath>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs />
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Component_RelativePath>87D41C5CC0207F4C1DE5E8B1CEE8B10C</Component_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>url</Name>
+          <DataSource>StaticValue</DataSource>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>browser</Name>
+          <DataSource>StaticValue</DataSource>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Component_RelativePath>21263FC2A4EEAD34E48C8B4263CD40F6</Component_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>input-parameter-1</Name>
           <DataSource>Default</DataSource>
         </FlowStepInputArgument>
       </StepInputArgs>
