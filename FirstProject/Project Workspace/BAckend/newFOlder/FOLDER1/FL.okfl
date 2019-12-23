@@ -24,19 +24,19 @@
       <StepInputArgs>
         <TestStepInputArgument>
           <Name>Browser</Name>
-          <DataSource>ValueFromGlobalVariable</DataSource>
-          <GV_RelativePath>GlobalVariables/Default Browser</GV_RelativePath>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">ie</StaticValue>
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>URL</Name>
           <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">myntra.com</StaticValue>
+          <StaticValue xsi:type="xsd:string">https://device.pcloudy.com/</StaticValue>
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
         <TestStepOutputArgument>
-          <OutputVariableName />
-          <ParameterName />
+          <OutputVariableName>Browser</OutputVariableName>
+          <ParameterName>Output</ParameterName>
         </TestStepOutputArgument>
       </StepOutputArgs>
     </TestStep>
@@ -148,8 +148,8 @@
       </StepInputArgs>
       <StepOutputArgs>
         <TestStepOutputArgument>
-          <OutputVariableName />
-          <ParameterName />
+          <OutputVariableName>flop</OutputVariableName>
+          <ParameterName>Output</ParameterName>
         </TestStepOutputArgument>
       </StepOutputArgs>
     </TestStep>
@@ -183,8 +183,8 @@
       <StepInputArgs />
       <StepOutputArgs>
         <TestStepOutputArgument>
-          <OutputVariableName />
-          <ParameterName />
+          <OutputVariableName>Site URL</OutputVariableName>
+          <ParameterName>Output</ParameterName>
         </TestStepOutputArgument>
       </StepOutputArgs>
     </TestStep>
@@ -199,7 +199,7 @@
       <StepInputArgs>
         <TestStepInputArgument>
           <Name>Arg1</Name>
-          <DataSource>StaticValue</DataSource>
+          <DataSource>ValueFromOutputArgument</DataSource>
           <OutputArgument_RelativePath>OutputArguments/Site URL</OutputArgument_RelativePath>
         </TestStepInputArgument>
         <TestStepInputArgument>
@@ -219,7 +219,7 @@
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>Arg5</Name>
-          <DataSource>StaticValue</DataSource>
+          <DataSource>ValueFromOutputArgument</DataSource>
           <OutputArgument_RelativePath>OutputArguments/Browser</OutputArgument_RelativePath>
         </TestStepInputArgument>
         <TestStepInputArgument>
@@ -239,7 +239,7 @@
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>Arg9</Name>
-          <DataSource>StaticValue</DataSource>
+          <DataSource>ValueFromOutputArgument</DataSource>
           <OutputArgument_RelativePath>OutputArguments/flop</OutputArgument_RelativePath>
         </TestStepInputArgument>
         <TestStepInputArgument>
