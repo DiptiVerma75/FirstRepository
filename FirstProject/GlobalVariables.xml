@@ -32,5 +32,12 @@
       <IsDeleted>false</IsDeleted>
       <ListValues />
     </GlobalVariable>
+    <GlobalVariable>
+      <Name>type</Name>
+      <DataType_ENUM>String</DataType_ENUM>
+      <ExternallyUpdatable>true</ExternallyUpdatable>
+      <IsDeleted>false</IsDeleted>
+      <ListValues />
+    </GlobalVariable>
   </GlobalVarables>
 </GlobalVariableSchema>

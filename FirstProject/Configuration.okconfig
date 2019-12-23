@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProjectConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ResultServerURL>http://localhost:59995/</ResultServerURL>
+  <Agents>
+    <Agent>
+      <AgentID>f4602761-0a4f-4db0-80cc-18e813cd5591</AgentID>
+      <Name>Dipti</Name>
+      <CommProtocol>RestAPI_Service</CommProtocol>
+      <AgentServerURL>http://localhost:52472/</AgentServerURL>
+    </Agent>
+  </Agents>
+</ProjectConfiguration>
