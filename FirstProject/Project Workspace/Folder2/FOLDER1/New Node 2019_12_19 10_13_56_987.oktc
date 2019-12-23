@@ -2,8 +2,16 @@
 <FlowSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ImportedArtifacts>
     <ImportSectionDTO>
-      <Name>D98759E78A2F084AB594859ADC4021BA</Name>
-      <Value>Project Workspace/FOLDER1/FL.okfl</Value>
+      <Name>87D41C5CC0207F4C1DE5E8B1CEE8B10C</Name>
+      <Value>Project Workspace/Folder2/FOLDER1/FL.okfl</Value>
+    </ImportSectionDTO>
+    <ImportSectionDTO>
+      <Name>1462CB22467F9A736F27F1A8C9355507</Name>
+      <Value>Project Workspace/Folder2/FOLDER1/global.okgdr</Value>
+    </ImportSectionDTO>
+    <ImportSectionDTO>
+      <Name>21263FC2A4EEAD34E48C8B4263CD40F6</Name>
+      <Value>Project Workspace/Folder2/FOLDER1/LOgout.okfl</Value>
     </ImportSectionDTO>
   </ImportedArtifacts>
   <MetaInformation>
@@ -18,8 +26,21 @@
       <IsNegative>false</IsNegative>
       <ShouldRun>true</ShouldRun>
       <WantSnapshot>false</WantSnapshot>
-      <Component_RelativePath>D98759E78A2F084AB594859ADC4021BA</Component_RelativePath>
-      <StepInputArgs />
+      <Component_RelativePath>87D41C5CC0207F4C1DE5E8B1CEE8B10C</Component_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>url</Name>
+          <DataSource>ValueFromDataRepository</DataSource>
+          <DRColumnBindingMode>Cyclic</DRColumnBindingMode>
+          <DR_RelativePath>1462CB22467F9A736F27F1A8C9355507/url</DR_RelativePath>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>browser</Name>
+          <DataSource>ValueFromDataRepository</DataSource>
+          <DRColumnBindingMode>Cyclic</DRColumnBindingMode>
+          <DR_RelativePath>1462CB22467F9A736F27F1A8C9355507/browser</DR_RelativePath>
+        </FlowStepInputArgument>
+      </StepInputArgs>
       <StepOutputArgs />
     </FlowStep>
     <FlowStep>
@@ -27,8 +48,13 @@
       <IsNegative>false</IsNegative>
       <ShouldRun>true</ShouldRun>
       <WantSnapshot>false</WantSnapshot>
-      <Component_RelativePath>D98759E78A2F084AB594859ADC4021BA</Component_RelativePath>
-      <StepInputArgs />
+      <Component_RelativePath>21263FC2A4EEAD34E48C8B4263CD40F6</Component_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>input-parameter-1</Name>
+          <DataSource>Default</DataSource>
+        </FlowStepInputArgument>
+      </StepInputArgs>
       <StepOutputArgs />
     </FlowStep>
   </FlowSteps>

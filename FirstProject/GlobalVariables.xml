@@ -16,5 +16,21 @@
       <IsDeleted>false</IsDeleted>
       <ListValues />
     </GlobalVariable>
+    <GlobalVariable>
+      <Name>browser</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
+      <DataType_ENUM>Boolean</DataType_ENUM>
+      <ExternallyUpdatable>true</ExternallyUpdatable>
+      <IsDeleted>false</IsDeleted>
+      <ListValues />
+    </GlobalVariable>
+    <GlobalVariable>
+      <Name>kjk</Name>
+      <Value xsi:type="xsd:int">7654</Value>
+      <DataType_ENUM>Integer</DataType_ENUM>
+      <ExternallyUpdatable>true</ExternallyUpdatable>
+      <IsDeleted>false</IsDeleted>
+      <ListValues />
+    </GlobalVariable>
   </GlobalVarables>
 </GlobalVariableSchema>

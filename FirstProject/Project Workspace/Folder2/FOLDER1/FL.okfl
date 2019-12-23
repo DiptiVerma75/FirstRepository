@@ -5,6 +5,10 @@
       <Name>E497F9FEF23644E00F41D2C2F9BBB396</Name>
       <Value>Project Workspace/FOLDER1/New Node 2019_12_19 10_13_46_400.okor</Value>
     </ImportSectionDTO>
+    <ImportSectionDTO>
+      <Name>21263FC2A4EEAD34E48C8B4263CD40F6</Name>
+      <Value>Project Workspace/Folder2/FOLDER1/LOgout.okfl</Value>
+    </ImportSectionDTO>
   </ImportedArtifacts>
   <MetaInformation>
     <DescriptionRTF />
@@ -24,13 +28,13 @@
       <StepInputArgs>
         <TestStepInputArgument>
           <Name>Browser</Name>
-          <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">chrome</StaticValue>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/browser</InputParameter_RelativePath>
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>URL</Name>
-          <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">https://device.pcloudy.com/</StaticValue>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/url</InputParameter_RelativePath>
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
@@ -319,7 +323,44 @@
         <TestStepOutputArgument />
       </StepOutputArgs>
     </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath />
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>input-parameter-1</Name>
+          <DataSource>ValueFromOutputArgument</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/flop</OutputArgument_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs />
+      <Component_RelativePath>21263FC2A4EEAD34E48C8B4263CD40F6</Component_RelativePath>
+    </TestStep>
   </TestSteps>
-  <InputParameters />
-  <OutputParameters />
+  <InputParameters>
+    <ComponentInputParameter>
+      <Name>url</Name>
+      <DefaultValues />
+      <IsMandatory>true</IsMandatory>
+      <Type>String</Type>
+    </ComponentInputParameter>
+    <ComponentInputParameter>
+      <Name>browser</Name>
+      <DefaultValues />
+      <IsMandatory>true</IsMandatory>
+      <Type>String</Type>
+    </ComponentInputParameter>
+  </InputParameters>
+  <OutputParameters>
+    <ComponentOutputParameter>
+      <Name>output-parameter-1hmjgm</Name>
+      <Type>String</Type>
+      <ComponentStep_OutputArg>StepOutput/flop</ComponentStep_OutputArg>
+    </ComponentOutputParameter>
+  </OutputParameters>
 </ComponentSchema>
