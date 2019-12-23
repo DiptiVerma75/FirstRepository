@@ -362,5 +362,10 @@
       <Type>String</Type>
       <ComponentStep_OutputArg>StepOutput/flop</ComponentStep_OutputArg>
     </ComponentOutputParameter>
+    <ComponentOutputParameter>
+      <Name>output-parameter-2</Name>
+      <Type>String</Type>
+      <ComponentStep_OutputArg>StepOutput/Site URL</ComponentStep_OutputArg>
+    </ComponentOutputParameter>
   </OutputParameters>
 </ComponentSchema>
