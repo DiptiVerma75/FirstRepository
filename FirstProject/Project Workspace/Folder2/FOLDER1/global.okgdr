@@ -7,11 +7,11 @@
   <ExcelFile_RelativePath>Global Data Repositories\17c9853c-52dd-411b-94f3-ab93f482a8e4.xlsx</ExcelFile_RelativePath>
   <DataRepositoryColumns>
     <DRColumns>
-      <Name>browser</Name>
+      <Name>url</Name>
       <IsEncrypted>false</IsEncrypted>
     </DRColumns>
     <DRColumns>
-      <Name>url</Name>
+      <Name>browser</Name>
       <IsEncrypted>false</IsEncrypted>
     </DRColumns>
     <DRColumns>
